@@ -16,6 +16,9 @@
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
+DROP DATABASE IF EXISTS eladmin;
+CREATE DATABASE eladmin CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+USE eladmin;
 
 -- ----------------------------
 -- Table structure for alipay_config
